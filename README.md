@@ -46,3 +46,20 @@ Configuration
 -------------
 The configuration of bewm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Modifications from stock dwm
+---
+## Patches that need to be merged:
+- [fullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
+- [flextile](https://dwm.suckless.org/patches/flextile/)
+- [taggrid](https://dwm.suckless.org/patches/taggrid/)
+- [xresources](https://dwm.suckless.org/patches/xresources/)
+- [restartsig](https://dwm.suckless.org/patches/restartsig/)
+- [keymodes](https://dwm.suckless.org/patches/keymodes/) Apply flextiles patch
+first
+
+## My own modifications:
+- [ ] custom keybinding handler, which does different things based on the state
+of the active window. Useful for mapping same keys to behave differently based
+on the state of the window.
